@@ -1,7 +1,7 @@
 <?php
   class Display {
   
-    public static function closeContainer( $loggedIn = false ) {
+    public static function closeContainer() {
 ?>
     <!--
       <footer>
@@ -25,24 +25,6 @@
 ?>
   </body>
 </html>
-<?php
-    }
-
-    public static function navBar( $user = array(), $org = array(), $showLogin = true ) {
-?>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="<?php echo baseHref; ?>index.html">j volpe</a>
-        </div>
-      </div>
-
-    </div>
 <?php
     }
 
