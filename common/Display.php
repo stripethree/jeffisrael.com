@@ -60,13 +60,6 @@
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="<?php echo baseHref; ?>img/favicon.png">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo baseHref; ?>img/touch-icon-iphone-114.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo baseHref; ?>img/touch-icon-iphone-114.png" />  
-    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo baseHref; ?>img/touch-icon-ipad-144.png" />  
-    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo baseHref; ?>img/touch-icon-ipad-144.png" />
-    <link rel="apple-touch-icon" href="<?php echo baseHref; ?>img/apple-touch-icon.png">
   </head>
 
   <body>
