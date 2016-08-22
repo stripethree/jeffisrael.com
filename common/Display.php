@@ -3,15 +3,15 @@
   
     public static function closeContainer( $loggedIn = false ) {
 ?>
+    <!--
       <footer>
-      <!--
         <p class="pull-right muted">
-          <?php $startYear = 2012; ?>
-          &copy; j volpe <?php echo $startYear; ?>
+          <?php $startYear = 2016; ?>
+          &copy; jeff israel <?php echo $startYear; ?>
           <?php if ( date( "Y", time() ) != $startYear ) { echo " - ".date( "Y", time() ); } ?>
-        </p>
-      -->
+        </p>        
       </footer>
+    -->
 
     </div><!--/.fluid-container-->
     
@@ -52,7 +52,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>j volpe</title>
+    <title>jeff israel dot com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
